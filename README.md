@@ -5,16 +5,16 @@ Para la interfaz gráfica se utilizó el motor por defecto blade con Bootstrap d
 A continuación detallo los comandos necesarios para ejecutar la aplicación una vez inicializado el proyecto:
 
 
-#Crear el archivo de creación de la tabla
+<strong>Crear el archivo de creación de la tabla</strong>
 php artisan make:migration create_producto_table
 
-#realizar la migracion
+<strong>Realizar la migracion</strong>
 php artisan migrate
 
-#generar modelo
+<strong>Generar modelo</strong>
 php artisan make:controller ProductoController --resource --model=Producto
 
-#servir proyecto
+<strong>Servir proyecto</strong>
 php artisan serve
 
 
