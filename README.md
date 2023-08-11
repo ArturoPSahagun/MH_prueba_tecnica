@@ -6,15 +6,19 @@ A continuación detallo los comandos necesarios para ejecutar la aplicación una
 
 
 <strong>Crear el archivo de creación de la tabla</strong>
+
 php artisan make:migration create_producto_table
 
 <strong>Realizar la migracion</strong>
+
 php artisan migrate
 
 <strong>Generar modelo</strong>
+
 php artisan make:controller ProductoController --resource --model=Producto
 
 <strong>Servir proyecto</strong>
+
 php artisan serve
 
 
