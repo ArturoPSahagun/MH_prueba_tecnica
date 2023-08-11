@@ -13,7 +13,7 @@ php artisan make:migration create_producto_table
 
 php artisan migrate
 
-<strong>Generar modelo</strong>
+<strong>Generar controlador y modelo</strong>
 
 php artisan make:controller ProductoController --resource --model=Producto
 
